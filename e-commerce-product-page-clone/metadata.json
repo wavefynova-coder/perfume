@@ -1,0 +1,5 @@
+{
+  "name": "E-commerce Product Page Clone",
+  "description": "A functional and visually appealing clone of an e-commerce product page, built with React, TypeScript, and Tailwind CSS. It showcases product details, image gallery, reviews, and related items.",
+  "requestFramePermissions": []
+}
