@@ -278,9 +278,14 @@ const ProductInfo: React.FC<{ product: Product; buyButtonRef: React.Ref<HTMLDivE
         </div>
       </div>
       <div ref={buyButtonRef} className="space-y-2 mt-auto">
-        <button className="w-full bg-blue-500 text-white font-semibold py-3 rounded-md hover:bg-blue-600 transition-colors">
+        <a 
+          href="https://yZRr.checkout.lunacheckout.com/checkout?product=07b4c2fa-b91b-11f0-a710-46da4690ad53" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="w-full bg-blue-500 text-white font-semibold py-3 rounded-md hover:bg-blue-600 transition-colors text-center block"
+        >
           Comprar agora
-        </button>
+        </a>
       </div>
     </div>
   );
@@ -500,9 +505,14 @@ const StickyBuyBar: React.FC<{ product: Product; isVisible: boolean }> = ({ prod
                     <p className="text-lg font-semibold">R$ {product.currentPrice.toFixed(2).replace('.', ',')}</p>
                 </div>
             </div>
-            <button className="bg-blue-500 text-white font-semibold py-2 px-6 rounded-md hover:bg-blue-600 transition-colors flex-shrink-0">
+            <a 
+              href="https://yZRr.checkout.lunacheckout.com/checkout?product=07b4c2fa-b91b-11f0-a710-46da4690ad53" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-blue-500 text-white font-semibold py-2 px-6 rounded-md hover:bg-blue-600 transition-colors flex-shrink-0"
+            >
                 Comprar agora
-            </button>
+            </a>
         </div>
     </div>
 );
