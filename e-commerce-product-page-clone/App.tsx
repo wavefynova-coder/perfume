@@ -506,7 +506,7 @@ const StickyBuyBar: React.FC<{ product: Product; isVisible: boolean }> = ({ prod
                 </div>
             </div>
             <a 
-              href="https://yZRr.checkout.lunacheckout.com/checkout?product=07b4c2fa-b91b-11f0-a710-46da4690ad53" 
+              href="https://pagamento.pacoperfumekit.shop/checkout?product=d8ee5f99-b9ed-11f0-a710-46da4690ad53" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-blue-500 text-white font-semibold py-2 px-6 rounded-md hover:bg-blue-600 transition-colors flex-shrink-0"
